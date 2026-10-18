@@ -1,0 +1,34 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Support · BTC Peek</title><style>
+:root{color-scheme:light dark;--fg:#1d1d1f;--muted:#6e6e73;--bg:#fff;--card:#f5f5f7;--accent:#c98a17}
+@media (prefers-color-scheme:dark){:root{--fg:#f5f5f7;--muted:#a1a1a6;--bg:#0b1626;--card:#13233a}}
+body{margin:0;font:17px/1.55 -apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif;color:var(--fg);background:var(--bg)}
+main{max-width:820px;margin:0 auto;padding:40px 24px 64px}
+header{display:flex;align-items:center;gap:16px;margin-bottom:24px}header img{width:72px;height:72px}
+h1{font-size:34px;margin:0}h2{margin-top:36px;font-size:22px}a{color:var(--accent)}
+.muted{color:var(--muted)}.card{background:var(--card);border-radius:14px;padding:18px 22px;margin:18px 0}
+img.shot{width:100%;border-radius:12px;margin:12px 0}code{font-size:15px}
+nav a{margin-right:18px}footer{margin-top:48px;font-size:14px;color:var(--muted)}
+</style></head><body><main>
+<header><img src="img/icon.png" alt="App icon"><div><h1>Support</h1><div class="muted">BTC Peek for macOS</div></div></header>
+<nav><a href="index.html">Home</a><a href="support.html">Support</a><a href="privacy.html">Privacy</a></nav>
+<h2>Contact</h2>
+<p>Email <a href="mailto:oferlzm@gmail.com">oferlzm@gmail.com</a>. Please include your macOS version and the data source shown in the app's right-click menu.</p>
+
+<h2>Using the app</h2>
+<ul>
+<li><strong>Where is it?</strong> The app has no Dock icon or main window. After launch, a small panel appears near the top-right corner of your screen.</li>
+<li><strong>Show details:</strong> click the panel. Click again to collapse it.</li>
+<li><strong>Move it:</strong> drag the panel. The position is remembered.</li>
+<li><strong>Menu:</strong> right-click (or Control-click) the panel for Refresh now, Show/Hide details, Launch at login and Quit.</li>
+</ul>
+
+<h2>FAQ</h2>
+<p><strong>Which data source is used?</strong> Binance USD-M futures first. If it's unreachable (for example, it's blocked in some countries, including the United States), the app switches automatically to Bybit, and then to Coinbase spot. The source in use is shown in the right-click menu and at the bottom of the details view. Coinbase spot is labelled <em>BTC SPOT</em>, and futures-only fields show "—".</p>
+<p><strong>Some fields show "—".</strong> Not every provider offers every metric for free (for example, Bybit has no free top-trader or taker ratio). Fields a provider doesn't offer show "—".</p>
+<p><strong>The panel says "offline".</strong> No provider could be reached. Check your internet connection. The app retries every 10 seconds.</p>
+<p><strong>Launch at login doesn't stick.</strong> Open System Settings &gt; General &gt; Login Items and make sure the app is allowed.</p>
+<p><strong>How do I quit?</strong> Right-click the panel, then choose Quit.</p>
+<p><strong>Does it trade or need an exchange account?</strong> No. It only displays public market data and has no trading, accounts or API keys.</p>
+<footer>© 2026 Ofer Lazmi. BTC Peek displays public market data for information only; it is not trading software or investment advice.</footer>
+</main></body></html>
