@@ -13,22 +13,26 @@ nav a{margin-right:18px}footer{margin-top:48px;font-size:14px;color:var(--muted)
 <header><img src="img/icon.png" alt="App icon"><div><h1>Support</h1><div class="muted">BTC Peek for macOS</div></div></header>
 <nav><a href="index.html">Home</a><a href="support.html">Support</a><a href="privacy.html">Privacy</a></nav>
 <h2>Contact</h2>
-<p>Email <a href="mailto:oferlzm@gmail.com">oferlzm@gmail.com</a>. Please include your macOS version and the data source shown in the app's right-click menu.</p>
+<p>Email <a href="mailto:oferlzm@gmail.com">oferlzm@gmail.com</a>. Please include your macOS version and the data source shown in the Menu Bar Extra, the panel's context menu, or at the bottom of the details view.</p>
 
 <h2>Using the app</h2>
 <ul>
-<li><strong>Where is it?</strong> The app has no Dock icon or main window. After launch, a small panel appears near the top-right corner of your screen.</li>
-<li><strong>Show details:</strong> click the panel. Click again to collapse it.</li>
+<li><strong>Where is it?</strong> After launch, a small panel appears near the top-right corner of your screen. The app has a Dock icon, an App Menu, and a Menu Bar Extra that shows the live price. Click the Dock icon, or choose View &gt; Show Price Panel (⌘0), to bring the panel forward.</li>
+<li><strong>Show details:</strong> click the panel, or press ⌘D. Click again (or press ⌘D) to collapse it.</li>
 <li><strong>Move it:</strong> drag the panel. The position is remembered.</li>
-<li><strong>Menu:</strong> right-click (or Control-click) the panel for Refresh now, Show/Hide details, Launch at login and Quit.</li>
+<li><strong>Menus:</strong> use the App Menu, the Menu Bar Extra, or right-click (or Control-click) the panel for Refresh Now, Show/Hide Details, Launch at Login and Quit.</li>
+<li><strong>View menu shortcuts:</strong> ⌘D shows or hides details, ⌘E shows or hides Market read (when details are open), and ⌘0 shows the price panel. The App Menu also has Refresh Now (⌘R) and Quit (⌘Q).</li>
 </ul>
 
+<h2>Market read</h2>
+<p>Open the details panel, then choose View &gt; Show Market Read or press ⌘E (you can also click the Market read row). Market read is a short, rules-based summary of the data already on the panel: a trend lean, a few key points, and price levels to watch. It runs entirely on your Mac: no AI, and no extra network calls. It is descriptive context only, and is not financial advice.</p>
+
 <h2>FAQ</h2>
-<p><strong>Which data source is used?</strong> Binance USD-M futures first. If it's unreachable (for example, it's blocked in some countries, including the United States), the app switches automatically to Bybit, and then to Coinbase spot. The source in use is shown in the right-click menu and at the bottom of the details view. Coinbase spot is labelled <em>BTC SPOT</em>, and futures-only fields show "—".</p>
+<p><strong>Which data source is used?</strong> Binance USD-M futures first. If it's unreachable (for example, it's blocked in some countries, including the United States), the app switches automatically to Bybit, and then to Coinbase spot. The source in use is shown in the Menu Bar Extra, the panel's context menu, and at the bottom of the details view. Coinbase spot is labelled <em>BTC SPOT</em>, and futures-only fields show "—".</p>
 <p><strong>Some fields show "—".</strong> Not every provider offers every metric for free (for example, Bybit has no free top-trader or taker ratio). Fields a provider doesn't offer show "—".</p>
 <p><strong>The panel says "offline".</strong> No provider could be reached. Check your internet connection. The app retries every 10 seconds.</p>
-<p><strong>Launch at login doesn't stick.</strong> Open System Settings &gt; General &gt; Login Items and make sure the app is allowed.</p>
-<p><strong>How do I quit?</strong> Right-click the panel, then choose Quit.</p>
+<p><strong>Launch at Login doesn't stick.</strong> Open System Settings &gt; General &gt; Login Items and make sure the app is allowed. You can turn Launch at Login on or off from the App Menu, the Menu Bar Extra, or the panel's context menu.</p>
+<p><strong>How do I quit?</strong> Choose Quit BTC Peek from the App Menu, the Dock, the Menu Bar Extra, or the panel's context menu, or press ⌘Q.</p>
 <p><strong>Does it trade or need an exchange account?</strong> No. It only displays public market data and has no trading, accounts or API keys.</p>
 <footer>© 2026 Ofer Lazmi. BTC Peek displays public market data for information only; it is not trading software or investment advice.</footer>
 </main></body></html>
